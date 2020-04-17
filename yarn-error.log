@@ -1,0 +1,45 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.12.3/libexec/bin/yarn.js add moccha
+
+PATH: 
+  /Users/jmtorralvo/.rvm/gems/ruby-2.6.3/bin:/Users/jmtorralvo/.rvm/gems/ruby-2.6.3@global/bin:/Users/jmtorralvo/.rvm/rubies/ruby-2.6.3/bin:~/Android/sdk/platform-tools:/Applications/rar:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jmtorralvo/Library/Android/sdk/platform-tools/:/Users/jmtorralvo/.rvm/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  11.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: http://registry.npmjs.org/moccha: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:65894:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129018:22)
+      at Request.emit (events.js:197:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129990:10)
+      at Request.emit (events.js:197:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129912:12)
+      at Object.onceWrapper (events.js:285:13)
+      at IncomingMessage.emit (events.js:202:15)
+      at endReadableNT (_stream_readable.js:1129:12)
+      at processTicksAndRejections (internal/process/next_tick.js:76:17)
+
+npm manifest: 
+  {
+    "name": "bowling",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "./node_modules/mocha/bin/mocha ./test/**/*.test.js",
+      "test:watch": "./node_modules/mocha/bin/mocha ./test/**/*.test.js --watch"
+    },
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
